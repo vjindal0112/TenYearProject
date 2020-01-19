@@ -33,13 +33,10 @@ h1 {
 p {
   font-size: 13px;
   padding: 8px;
-
 }
 
-
 .center {
-    text-align: center;
-
+  text-align: center;
 }
 
 a {
@@ -55,8 +52,6 @@ a {
   background-position: center center;
   background-size: cover;
   margin: 0px auto auto auto;
-  
-  
 }
 
 .gridDiv {
@@ -69,6 +64,12 @@ a {
 .innerGridDiv {
   display: flex;
   flex-flow: row nowrap;
+}
+
+@media only screen and (max-width: 1024px) {
+  .innerGridDiv {
+    flex-direction: column;
+  }
 }
 
 .memberDescription {
@@ -91,17 +92,15 @@ a {
 
 .planDiv {
   max-width: 30em;
-  text-align:left; 
-  margin-right: auto; 
+  text-align: left;
+  margin-right: auto;
   margin-left: auto;
 }
 
 #footer {
-/*   background-color: #00569d; */
-/*     border: 1px solid #0B5691; */
-/*   box-shadow: 0px 0px 2px #0B5691; */
+  /*   background-color: #00569d; */
+  /*     border: 1px solid #0B5691; */
+  /*   box-shadow: 0px 0px 2px #0B5691; */
   height: 4em;
   width: 100%;
 }
-
-
